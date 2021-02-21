@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="493.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.ControllerLogin">
+   <children>
+      <Label layoutX="237.0" layoutY="31.0" text="Professore">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idUni" layoutX="220.0" layoutY="96.0" promptText="ID Università" text="U8888" />
+      <TextField fx:id="nome" layoutX="220.0" layoutY="137.0" promptText="Nome" />
+      <TextField fx:id="cognome" layoutX="220.0" layoutY="173.0" promptText="Cognome" />
+      <TextField fx:id="birth" layoutX="220.0" layoutY="213.0" promptText="Birth" />
+      <TextField fx:id="mail" layoutX="220.0" layoutY="253.0" promptText="Mail" />
+      <TextField fx:id="matricola" layoutX="220.0" layoutY="292.0" promptText="Matricola" text="T0987834" />
+      <TextField fx:id="password" layoutX="220.0" layoutY="334.0" promptText="Password" text="prova" />
+      <Button layoutX="164.0" layoutY="428.0" mnemonicParsing="false" onAction="#handleBtnBackToLoginHome" text="Annulla" />
+      <Button layoutX="380.0" layoutY="428.0" mnemonicParsing="false" onAction="#confermaRegistrazioneProfessore" text="Registra" />
+      <Label fx:id="errorLabel" layoutX="285.0" layoutY="433.0" text="Error" textFill="RED" visible="false" />
+   </children>
+</Pane>

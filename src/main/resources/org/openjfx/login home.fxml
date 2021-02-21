@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="439.0" prefWidth="633.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.ControllerLogin">
+   <children>
+      <Button fx:id="btnLoginStudente" layoutX="95.0" layoutY="280.0" mnemonicParsing="false" onAction="#handleBtnLoginStudente" prefHeight="27.0" prefWidth="147.0" text="Login Studente" />
+      <Button fx:id="btnRegistraStudente" layoutX="95.0" layoutY="336.0" mnemonicParsing="false" onAction="#handleBtnRegistraStudente" prefHeight="27.0" prefWidth="147.0" text="Registra Studente" />
+      <Button fx:id="btnLoginProfessore" layoutX="399.0" layoutY="280.0" mnemonicParsing="false" onAction="#handleBtnLoginProfessore" prefHeight="27.0" prefWidth="147.0" text="Login Professore" />
+      <Button fx:id="btnRegistraProfessore" layoutX="399.0" layoutY="336.0" mnemonicParsing="false" onAction="#handleBtnRegistraProfessore" prefHeight="27.0" prefWidth="147.0" text="Registra Professore" />
+      <Label layoutX="211.0" layoutY="72.0" text="UNIBOOK">
+         <font>
+            <Font size="49.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

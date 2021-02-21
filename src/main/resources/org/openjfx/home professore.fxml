@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.ControllerProfessore">
+   <children>
+      <Label layoutX="223.0" layoutY="156.0" text="UNIBOOK">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="matricola" layoutX="42.0" layoutY="72.0" text="Matricola: ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="166.0" layoutY="289.0" mnemonicParsing="false" onAction="#handleBtnCreaEsame" prefHeight="27.0" prefWidth="114.0" text="Crea Esame" />
+      <Button layoutX="312.0" layoutY="289.0" mnemonicParsing="false" onAction="#handleBtnCreaRicevimento" prefHeight="27.0" prefWidth="131.0" text="Crea Ricevimento" />
+      <Button layoutX="273.0" layoutY="338.0" mnemonicParsing="false" onAction="#handleBtnInserisciMateria" text="Inserisci materia" />
+   </children>
+</Pane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.ControllerStudente">
+   <children>
+      <Label layoutX="144.0" layoutY="41.0" text="Prenota Ricevimento">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="300.0" layoutY="349.0" mnemonicParsing="false" onAction="#btnPrenotaRicevimento" prefHeight="27.0" prefWidth="133.0" text="Prenota Ricevimento" />
+      <Button layoutX="79.0" layoutY="168.0" mnemonicParsing="false" onAction="#btnMostraRicevimenti" prefHeight="27.0" prefWidth="102.0" text="Mostra lista" />
+      <ListView fx:id="listViewRicevimenti" layoutX="200.0" layoutY="168.0" prefHeight="164.0" prefWidth="200.0" />
+      <TextField fx:id="idricevimento" layoutX="220.0" layoutY="116.0" promptText="idRicevimento" />
+      <Button layoutX="181.0" layoutY="349.0" mnemonicParsing="false" onAction="#handleBtnBackHome" text="Annulla" />
+   </children>
+</Pane>

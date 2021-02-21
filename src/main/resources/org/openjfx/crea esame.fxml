@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="532.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.ControllerProfessore">
+   <children>
+      <Label layoutX="230.0" layoutY="30.0" text="Crea esame">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nomemateria" layoutX="96.0" layoutY="102.0" promptText="Nome Materia" />
+      <Button layoutX="219.0" layoutY="415.0" mnemonicParsing="false" onAction="#handleBtnBackHome" text="Annulla" />
+      <Button layoutX="317.0" layoutY="415.0" mnemonicParsing="false" onAction="#btnCreaEsame" prefHeight="27.0" prefWidth="106.0" text="Aggiungi" />
+      <Label layoutX="96.0" layoutY="165.0" text="Data" />
+      <Label layoutX="391.0" layoutY="165.0" text="Orario inizio" />
+      <Label layoutX="391.0" layoutY="240.0" text="Orario fine" />
+      <TextField fx:id="luogo" layoutX="391.0" layoutY="102.0" promptText="Luogo" />
+      <TextField fx:id="numpartecipanti" layoutX="220.0" layoutY="341.0" promptText="Numero Partecipanti" />
+      <TextField fx:id="orarioinizio" layoutX="391.0" layoutY="203.0" />
+      <TextField fx:id="orariofine" layoutX="391.0" layoutY="266.0" />
+      <Label layoutX="94.0" layoutY="240.0" text="Modalità" />
+      <TextField fx:id="modalità" layoutX="96.0" layoutY="266.0" />
+      <TextField fx:id="data" layoutX="96.0" layoutY="203.0" />
+   </children>
+</Pane>

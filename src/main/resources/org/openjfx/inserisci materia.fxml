@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="471.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.ControllerProfessore">
+   <children>
+      <Label layoutX="205.0" layoutY="31.0" text="Inserisci materia">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nomemateria" layoutX="219.0" layoutY="102.0" promptText="Nome Materia" />
+      <Button layoutX="219.0" layoutY="247.0" mnemonicParsing="false" onAction="#handleBtnBackHome" text="Annulla" />
+      <Button layoutX="309.0" layoutY="247.0" mnemonicParsing="false" onAction="#btnInserisciEsame" prefHeight="27.0" prefWidth="70.0" text="Aggiungi" />
+      <TextField fx:id="cfu" layoutX="219.0" layoutY="170.0" promptText="cfu" />
+   </children>
+</Pane>
