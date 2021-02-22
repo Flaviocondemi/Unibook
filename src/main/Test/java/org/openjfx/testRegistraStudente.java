@@ -33,7 +33,6 @@ class testRegistraStudente {
         unibook.registraStudente(studente, cfuni, cs, password);
         index = unibook.getListastudenti().indexOf(studente);
         assertEquals(studente, unibook.getListastudenti().get(index));
-        // TODO review the generated test code and remove the default call to fail.
     }
 
     @Test

@@ -154,7 +154,7 @@ class Unibook {
             if(u.getCodicefiscale().equals(cfuni)){
                 //ricerca professore nell' elenco degli studenti dei rispettivi corsi di studio
                 for(CorsoStudio cs : u.getListacorsodistudi()){
-                    if(corsoStudio.getId() == cs.getId()){
+                    if(corsoStudio.getId().equals(cs.getId())){
                         for(Studente s : cs.getListastudenti()){
                             if(s.getMatricola().equals(studente.getMatricola())){
                                 return true;
@@ -218,7 +218,7 @@ class Unibook {
     public void inserisciMateria(Materia materia, CorsoStudio corsoStudio){
 
         for(Materia materiaregistrata: corsoStudio.getListamaterie()){
-            if(materia.getNome() == materiaregistrata.getNome()){
+            if(materia.getNome().equals(materiaregistrata.getNome())){
                 System.out.println("La materia è valida ed esiste per quel corso di studi");
                 professoreloggato.inserisciMateria(materia);
             }
@@ -377,7 +377,7 @@ class Unibook {
         }else {
             for (Esame esame : listaesami) {
                 if (ricevimento.getData().equals(esame.getData())) {
-                    System.out.println("il sistema presenta un esame con le stesse date dell'ricevimneto");
+                    System.out.println("il sistema presenta un esame con le stesse date del ricevimneto");
                     return null;
                 }
             }

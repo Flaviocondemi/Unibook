@@ -74,7 +74,15 @@ public class Professore {
     }
 
     public void inserisciMateria(Materia materia){
+        for(Materia materiaaggiunta : listamaterie){
+            if(materiaaggiunta.getNome().equals(materia.getNome())){
+                System.out.println("Materia già esistente");
+                return;
+            }
+        }
         listamaterie.add(materia);
+        System.out.println("Materia aggiunta");
+
     }
 
     public List<Materia> getListamaterie() {
